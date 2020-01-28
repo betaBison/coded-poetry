@@ -81,7 +81,7 @@ class PoemCreator():
                 ['ger'],
                 ['noun','verb'],
                 ['art','noun'],
-                ['prep','noun','art','verb']]
+                ['prep','noun','art','noun','verb']]
         r = random.randint(0,len(sent)-1)
         return sent[r]
 
